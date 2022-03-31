@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#title {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+#opcoesDoQuadro {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Definindo Estidos do Pixel Board */
+
+#pixel-board {
+  margin-top: 70px;
+  line-height: 0;
+  text-align: center;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+  border: 1px solid #000000;
+  display: inline-block;
+  background-color: #FFFFFF;
+}
+
+/* Definindo Estilos da Paleta */
+
+#color-palette {
+  margin: auto;
+  width: 80%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.color, .anotherColor {
+  border: 1px solid #000000;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+/* Estilizando o Botão */
+
+#caixaBotao {
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+}
+
+.botaoReset {
+	box-shadow: 0px 3px 0px 0px #016401;
+	background:linear-gradient(to bottom, #008000 5%, #008000 100%);
+	background-color:#008000;
+	border-radius:18px;
+	border:1px solid #008d00;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #008000;
+}
+.botaoReset:hover {
+	background:linear-gradient(to bottom, #008000 5%, #008000 100%);
+	background-color:#008000;
+}
+.botaoReset:active {
+	position:relative;
+	top:1px;
+}
+
+/**/
+
+main {
+  margin-bottom: 100px;
+}
+
+footer {
+  background-color: green;
+  padding: 1px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+body {
+  font-family: 'Roboto', monospace;
+}

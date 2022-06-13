@@ -1,10 +1,32 @@
 # Projeto Pixels Art [View/Ver](https://j-pster.github.io/pixels-art/)
 Este projeto foi feito durante o bloco de Fundamentos na [Trybe](https://www.betrybe.com/) por _[João Pedro Viana Freitas](https://www.linkedin.com/in/joaopster/)_ :rocket:
 
+---
+
+# Habilidades
+Neste projeto, verificamos que você é capaz de:
+
+  * Manipular o DOM
+
+  * Manipular o Javascript
+
+---
+
+# Instruções para rodar o Projeto:
+
+1. Clone o repositório
+  * `git clone git@github.com:J-Pster/pixels-art.git`
+  * Entre na pasta do repositório que você acabou de clonar:
+    * `cd pixels-art`
+
+---
+
 ### Descrição
 
 Consiste em um site feito em HTML, CSS e JavaScript, aonde o usuário tem um Board (Quadro) que ele pode pintar com as cores geradas aleatóriamente no carregamento ou ao clicar no botão "Gerar Mais Cores".
 O board pode ser alterado de tamanho, até um limite de 50x50, e pode ser limpo pelo botão "Limpar", ao clicar em uma cor ele a seleciona e ao clicar em um pixel do board ele pinta com a cor selecionada.
+
+---
 
 ### Comentários
 - [ ] 1: Fazer a refatoração do código.
